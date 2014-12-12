@@ -25,10 +25,10 @@ appConfig.json
 ```
 1. test kill the container，会重启container  
 ```
-slider kill-container memcached1 --id container_1418384158768_0004_01_000001
+$slider kill-container memcached1 --id container_1418384158768_0004_01_000001
 ```
 2. 测试自杀，不会重启container
 ```
-slider am-suicide memcached1 --exitcode 1  --message "test"
+$slider am-suicide memcached1 --exitcode 1  --message "test"
 ```
 
