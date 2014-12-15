@@ -18,6 +18,7 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
  * bin/zkCli.sh -server 127.0.0.1:2181
  * 
 5. 自动构建继承测试环境  
+ * http://blog.csdn.net/csfreebird/article/details/7213501
  * jenkins
  * 安装git plugin、githubplugin
  * 安装git
