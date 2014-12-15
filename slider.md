@@ -25,7 +25,7 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
  2. A provider specific to deploying a class of applications.
  3. The Application State.
 3. client：通过RPC，和AM或者YARN交互
-
+ 1. 
 #### 技巧
 1. 获取服务的host_port  
 ```
