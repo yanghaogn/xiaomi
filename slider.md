@@ -20,7 +20,7 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
 5. 自动构建继承测试环境  
  * jenkins
  * 安装git plugin、githubplugin
- * 构建
+ * 安装git
 6. 
 
 ####概念
