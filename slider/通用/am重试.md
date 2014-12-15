@@ -31,4 +31,11 @@ $slider kill-container memcached1 --id container_1418384158768_0004_01_000001
 ```
 $slider am-suicide memcached1 --exitcode 1  --message "test"
 ```
+3. 吐槽
+```
+启动，kill sliderapplicationmaster,都重启
+启动， kill -6 sliderapplicationmaster，只am重启
+       kill sliderapplicationmaster,只am重启
+```
+4. 
 
