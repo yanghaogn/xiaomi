@@ -3,6 +3,7 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
 ####阅读引导
 1. [Build YARN Apps on Hadoop with Apache Slider: Technical Preview Now Available](http://zh.hortonworks.com/blog/apache-slider-technical-preview-now-available/)
 2. [命令](http://slider.incubator.apache.org/docs/manpage.html)
+3. [架构](http://slider.incubator.apache.org/design/architecture.html)
 
 ####安装
 1. 参考：[getting_started](http://slider.incubator.apache.org/docs/getting_started.html)  
