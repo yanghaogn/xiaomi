@@ -27,8 +27,11 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
 3. client：通过RPC，和AM或者YARN交互
 4. agent
  1. The core provider在container上部署最小的agent, 然后, as the agent checks in to the agent provider's REST API, 执行这些命令：从hdfs下载包、解压这些包，然后按照模板并使用真实的配置通过python脚本启动
-5. RPC接口
-
+5. RPC接口  
+SliderClusterAPI  
+getJSONClusterStatus(): get the status of the application instance as a JSON document.  
+flexCluster() update the desired count of role instances in the running application instance.  
+stopCluster() stop the application instance
 6. 
 
 #### 技巧
