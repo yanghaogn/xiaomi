@@ -28,6 +28,7 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
 4. agent
  1. The core provider在container上部署最小的agent, 然后, as the agent checks in to the agent provider's REST API, 执行这些命令：从hdfs下载包、解压这些包，然后按照模板并使用真实的配置通过python脚本启动
 5. RPC接口
+
 6. 
 
 #### 技巧
