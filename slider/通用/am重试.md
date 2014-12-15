@@ -33,9 +33,9 @@ $slider am-suicide memcached1 --exitcode 1  --message "test"
 ```
 3. 吐槽
 ```
-启动，kill sliderapplicationmaster,都重启
-启动，1. kill -6 sliderapplicationmaster，只am重启
-        2. kill sliderapplicationmaster,只am重启
+启动，kill SliderAppMaster,都重启
+启动，1. kill -6 SliderAppMaster，只am重启
+        2. kill SliderAppMaster,只am重启
 ```
 4. 
 
