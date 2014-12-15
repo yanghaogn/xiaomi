@@ -16,6 +16,12 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
 4. 启动zookeeper  
  * bin/zkServer.sh start
  * bin/zkCli.sh -server 127.0.0.1:2181
+ * 
+5. 自动构建继承测试环境  
+ * jenkins
+ * 安装git plugin、githubplugin
+ * 构建
+6. 
 
 ####概念
 
