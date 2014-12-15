@@ -9,7 +9,7 @@ yarn.resourcemanager.am.max-attempts
 ```
 slider.yarn.restart.limit//设置成0表示不受影响
 ```
-3. ~~resources.json~~
+3. ~~resources.json~~不受影，因为一旦AM重启，计数被重置了
 ```
     "yarn.container.failure.threshold":"5",
     "yarn.container.failure.window.days":"1",
