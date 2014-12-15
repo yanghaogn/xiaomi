@@ -18,9 +18,8 @@ slider.yarn.restart.limit//设置成0表示不受影响
 ```
 
 ####失败后不让component重启
+重启时，端口号不变
 appConfig.json  
-
-
 ~~"slider.am.restart.supported" : "false"~~该参数不再起作用
 
 1. test kill the container，会重启container  
