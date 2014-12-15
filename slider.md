@@ -21,7 +21,7 @@ slder试图将计算框架平滑(slide)的迁移到YARN上。
 1. component  
 每个component对应application的一个组件，一个component的一个实例对应一个container，slider会为每个component取一个名字，在metainfo.xml中进行定义。每个application的资源都是基于component分配的
 2. Slider AM
-3. client：和AM或者RM交互
+3. client：通过RPC，和AM或者YARN交互
 
 #### 技巧
 1. 获取服务的host_port  
