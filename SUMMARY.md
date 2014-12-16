@@ -9,7 +9,6 @@
    * [hadoop-common-project](test/hadoop-common-project.md)
    * [hadoop-yarn-project](test/hadoop-yarn-project$.md)
 * [Slider](slider.md)
-   * [memcached](slider/memcached.md)
    * [hbase](slider/hbase.md)
    * [通用](slider/通用/通用.md)
        * [配置](slider/通用/配置.md)
