@@ -10,7 +10,15 @@ mysql> select count(*) from ad_effect_realtime where record_date < '2015-07-21 0
 +----------+
 1 row in set (18.57 sec)
 ```
-
+2. 一个月前type_id为NULL的数据
+```
+mysql> select count(*) from ad_effect_realtime where record_date < '2015-06-21 00:00:00' and type_id is NULL;   
++----------+
+| count(*) |
++----------+
+| 16473483 |
++----------+
+```
 ####结论
 可以清理一个星期前type_id为null的数据
 ##Page_Stats数据清理
