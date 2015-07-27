@@ -19,4 +19,5 @@
        * [ExitCode](slider/通用/exitcode.md)
        * [流程](slider/通用/流程.md)
 * [广告小组](guang_gao_xiao_zu.md)
+   * 清理PageStats和ad_effect_realtime表
 
