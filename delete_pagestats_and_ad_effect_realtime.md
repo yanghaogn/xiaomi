@@ -1,6 +1,6 @@
 ##ad_effect_realtime
 ####数据
-1. 一个星期前type_id为Null的数据
+1. 一个星期前type_id为NULL的数据
 ```
 mysql> select count(*) from ad_effect_realtime where record_date < '2015-07-21 00:00:00' and type_id is NULL;  
 +----------+
