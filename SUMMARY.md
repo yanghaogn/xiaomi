@@ -18,5 +18,5 @@
        * [resources.json](slider/通用/resources.md)
        * [ExitCode](slider/通用/exitcode.md)
        * [流程](slider/通用/流程.md)
-* 广告小组
+* [广告小组](guang_gao_xiao_zu.md)
 
