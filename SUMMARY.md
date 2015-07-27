@@ -18,6 +18,7 @@
        * [resources.json](slider/通用/resources.md)
        * [ExitCode](slider/通用/exitcode.md)
        * [流程](slider/通用/流程.md)
+
 * [广告](ads.md)
    * [任务](ads/tasks.md)
        * [清理PageStats和ad_effect_realtime表](ads/tasks/delete_pagestats_and_ad_effect_realtime.md)
