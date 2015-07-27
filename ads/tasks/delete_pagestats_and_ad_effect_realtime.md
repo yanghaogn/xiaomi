@@ -22,7 +22,19 @@ mysql> select count(*) from ad_effect_realtime where record_date < '2015-06-21 0
 
 ####结论
 1. 备份15天前type_id为null以及TimeDimension为0的数据
+```
+mysqldump -uad_statistic_wr -pOTI1ZmFhYmZlZWEyNDIzZjgxYzBmMDFl -h10.105.20.11 miui_ad_statistic ad_effect_realtime where 'time_dimension = 0 and type_id is not null and record_date < '2015-07-12'' --skip-lock-tables > removeOldAdEffectRealTimeData/2015-07-12.dump
+```
 2. 清理15前type_id为null以及TimeDimension为0的数据
+
+####方案
+1. 创建目录
+```
+hadoop dfs -mkdir /user/h_miui_ad/luoyan/ad_statistic/ad_effect_realtime/
+hadoop dfs -mkdir /user/h_miui_ad/luoyan/ad_statistic/ad_effect_realtime/year=2015
+hadoop dfs -mkdir /user/h_miui_ad/luoyan/ad_statistic/ad_effect_realtime/year=2015/month=07/
+hadoop dfs -mkdir /user/h_miui_ad/luoyan/ad_statistic/ad_effect_realtime/year=2015/month=07/day=27/
+```
 
 ##Page_Stats数据清理
 ####数据
