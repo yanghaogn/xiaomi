@@ -1,10 +1,22 @@
 ##ad_effect_realtime
 ####数据
-1. 可以清理一个星期前type_id为null的数据
-![](ad_effect_realtime一个星期前type_id的数据量.png)
+1. 一个星期前type_id为Null的数据
+```
+mysql> select count(*) from ad_effect_realtime where record_date < '2015-07-21 00:00:00' and type_id is NULL;  
++----------+
+| count(*) |
++----------+
+| 35662286 |
++----------+
+1 row in set (18.57 sec)
+```
+
+####结论
+可以清理一个星期前type_id为null的数据
 ####清理
 可以清理一个星期前type_id为null的数据量
-#Page_Stats数据清理
+##Page_Stats数据清理
+####数据
 1. 总量：
 ```
 mysql> select count(*) from Page_Stats ;                      
@@ -65,3 +77,7 @@ mysql> select TimeDimension, count(*) from Page_Stats  where Date < '2015-04-27'
 +---------------+----------+
 4 rows in set (10.09 sec)
 ```
+
+####结论
+1. 清理一个月前小时级统计数据
+2. 清理三个月前小时级累加的数据
