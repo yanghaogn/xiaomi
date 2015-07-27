@@ -23,6 +23,7 @@ mysql> select count(*) from ad_effect_realtime where record_date < '2015-06-21 0
 ####结论
 1. 备份15天前type_id为null以及TimeDimension为0的数据
 2. 清理15前type_id为null以及TimeDimension为0的数据
+
 ##Page_Stats数据清理
 ####数据
 1. 总量：
