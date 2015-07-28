@@ -22,4 +22,5 @@
 * [广告](ads.md)
    * [任务](ads/tasks.md)
        * [清理PageStats和ad_effect_realtime表](ads/tasks/delete_pagestats_and_ad_effect_realtime.md)
+   * [开发注意事项](ads/develop_nots.md)
 
