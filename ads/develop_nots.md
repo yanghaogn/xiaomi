@@ -22,7 +22,7 @@
 5. 如果提示"git add"，运行git status，如果没有变化，则运行git rebase --skip，然后重复步骤2，直到解决冲突
 
 ##mysql
-1. 重复则更新记录https://dev.mysql.com/doc/refman/5.0/en/insert-on-duplicate.html
+1. 重复则更新记录，不重复就插入https://dev.mysql.com/doc/refman/5.0/en/insert-on-duplicate.html
 ```
 insert into ad_type (virtual_media_type,billing_type,billing_type_name,placement_type,placement_type_name,media_type,media_type_name,sub_media_type,sub_media_type_name,new_media_type,new_media_type_name) values (21704,2,'CPC',17,'信息流广告-应用',4,'一点资讯',-1,'null',4,'一点资讯') on duplicate key update virtual_media_type=21704,billing_type=2,billing_type_name='CPC',placement_type=17,placement_type_name='信息流广告-应用',media_type=4,media_type_name='一点资讯',sub_media_type=-1,sub_media_type_name='null',new_media_type=4,new_media_type_name='一点资讯';
 ```
