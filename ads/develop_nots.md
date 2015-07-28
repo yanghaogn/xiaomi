@@ -29,9 +29,8 @@ insert into ad_type (virtual_media_type,billing_type,billing_type_name,placement
 
 ##Java
 1. 不要违反的Java比较原语：[http://stackoverflow.com/questions/19325256/java-lang-illegalargumentexception-comparison-method-violates-its-general-contr](http://stackoverflow.com/questions/19325256/java-lang-illegalargumentexception-comparison-method-violates-its-general-contr)
+2. 产生日期随机数，这是因为SimpleDateFormat不是线程安全的：http://stackoverflow.com/questions/6840803/simpledateformat-thread-safety
 
 ## code review工具
 arc land --remote infra --onto hadoop-2.4.0-mdh2
 
-##问题排查
-1. 产生日期随机数，这是因为SimpleDateFormat不是线程安全的：http://stackoverflow.com/questions/6840803/simpledateformat-thread-safety
