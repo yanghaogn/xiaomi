@@ -23,7 +23,7 @@
 5. 如果提示"git add"，运行git status，如果没有变化，则运行git rebase --skip，然后重复步骤2，直到解决冲突
 
 ####合并
-1. 将feature合并成一次提交
+<del>1. 将feature合并成一次提交</del>
 git merge --no-ff <branch>
 ##mysql
 1. 重复则更新记录，不重复就插入https://dev.mysql.com/doc/refman/5.0/en/insert-on-duplicate.html
