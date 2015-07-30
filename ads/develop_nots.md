@@ -14,13 +14,17 @@
 
 6.	对于非常小的改动，也建议先在自己的dev分支修改，然后记得merge到staging分支
 
-##冲突解决
+##git
+####冲突解决
 1. git rebase origin/master
 2. 遇到冲突，切换到rebase分支
 3. 解决冲突，git commit -m "merge master" -a
 4. git rebase --continue
 5. 如果提示"git add"，运行git status，如果没有变化，则运行git rebase --skip，然后重复步骤2，直到解决冲突
 
+####合并
+1. 将feature合并成一次提交
+git merge --no-ff <branch>
 ##mysql
 1. 重复则更新记录，不重复就插入https://dev.mysql.com/doc/refman/5.0/en/insert-on-duplicate.html
 ```
