@@ -14,6 +14,17 @@
 
 6.	对于非常小的改动，也建议先在自己的dev分支修改，然后记得merge到staging分支
 
+##shell
+1. 测试
+```
+创建.debug文件
+if test -f .debug ; then
+    local emailList=yanghao3@xiaomi.com
+    local year='2015'
+    local month='07'
+    local day='31'
+fi
+```
 ##git
 ####冲突解决
 1. git rebase origin/master
