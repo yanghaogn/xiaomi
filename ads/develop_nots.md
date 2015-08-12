@@ -42,7 +42,7 @@ fi
 ```
 insert into ad_type (virtual_media_type,billing_type,billing_type_name,placement_type,placement_type_name,media_type,media_type_name,sub_media_type,sub_media_type_name,new_media_type,new_media_type_name) values (21704,2,'CPC',17,'信息流广告-应用',4,'一点资讯',-1,'null',4,'一点资讯') on duplicate key update virtual_media_type=21704,billing_type=2,billing_type_name='CPC',placement_type=17,placement_type_name='信息流广告-应用',media_type=4,media_type_name='一点资讯',sub_media_type=-1,sub_media_type_name='null',new_media_type=4,new_media_type_name='一点资讯';
 ```
-2. 更新updateBusinessLayout，有大量的sql，这些sql非常类似，如果将其中的like或者=，改成in将极大的节省sql查询次数，减轻服务器的负载
+2. updateBusinessLayout中，有大量的sql，查询某个app的信息，这些sql非常类似，如果将其中的like或者=，改成in将极大的节省sql查询次数，减轻服务器的负载
 
 ##Java
 1. 不要违反的Java比较原语：[http://stackoverflow.com/questions/19325256/java-lang-illegalargumentexception-comparison-method-violates-its-general-contr](http://stackoverflow.com/questions/19325256/java-lang-illegalargumentexception-comparison-method-violates-its-general-contr)
