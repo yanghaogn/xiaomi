@@ -49,3 +49,7 @@ arc land --remote infra --onto hadoop-2.4.0-mdh2
 
 ##maven
 1. ubuntu上安装maven3:[https://software.intel.com/zh-cn/blogs/2014/03/10/ubuntu-maven-0](https://software.intel.com/zh-cn/blogs/2014/03/10/ubuntu-maven-0)
+2. 
+
+##工程
+1. BI平台：添加指标后要给刘博文说，让那边添加新的map
