@@ -44,6 +44,7 @@ fi
 1. 不要违反的Java比较原语：[http://stackoverflow.com/questions/19325256/java-lang-illegalargumentexception-comparison-method-violates-its-general-contr](http://stackoverflow.com/questions/19325256/java-lang-illegalargumentexception-comparison-method-violates-its-general-contr)
 2. 产生日期随机数，这是因为SimpleDateFormat不是线程安全的：http://stackoverflow.com/questions/6840803/simpledateformat-thread-safety
 3. MD5加密：https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/digest/DigestUtils.html
+4. 高并发性getHostByName，性能很差：[http://blog.csdn.net/shijun_zhang/article/details/6577426](http://blog.csdn.net/shijun_zhang/article/details/6577426)
 
 ## code review工具
 arc land --remote infra --onto hadoop-2.4.0-mdh2
