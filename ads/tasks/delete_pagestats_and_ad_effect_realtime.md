@@ -25,7 +25,7 @@ mysql> select count(*) from ad_effect_realtime where record_date < '2015-06-21 0
 ```
 mysqldump -uad_statistic_wr -pOTI1ZmFhYmZlZWEyNDIzZjgxYzBmMDFl -h10.105.20.11 miui_ad_statistic ad_effect_realtime where 'time_dimension = 0 and type_id is not null and record_date < '2015-07-12'' --skip-lock-tables > removeOldAdEffectRealTimeData/2015-07-12.dump
 ```
-2. 清理15前type_id为null以及TimeDimension为0的数据
+2. 清理15天前type_id为null以及TimeDimension为0的数据
 
 ####方案
 1. 创建目录
